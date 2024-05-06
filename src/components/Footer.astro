@@ -1,10 +1,19 @@
 ---
-const platform = "github";
-const username = "kapakrystian";
+import Social from "./Social.astro";
 ---
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
+
 
 <footer>
-  <p>Learn more about my projects on <a href={`https://www.${platform}.com/${username}`}>{platform}</a>!</p>
-  <p>Learn more about my skills and work life on <a href="www.linkedin.com/in/krystian-kapa-6b4318234">Linkedin</a></p>
-  <p>Learn more about me :) on <a href="https://www.instagram.com/ka_krystian/?hl=pl">Instagram</a></p>
+  <div>
+    <Social platform="github" username="kapakrystian" />
+    <Social platform="linkedin" username="in/krystian-kapa-6b4318234" />
+    <Social platform="instagram" username="ka_krystian/?hl=pl"/>
+  </div>
 </footer>
