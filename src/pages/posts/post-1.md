@@ -1,17 +1,14 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: "My First Blog Post"
 pubDate: 2024-04-29
 description: "This is the first post of my new Astro blog."
 author: "Krystian Kapa"
 image:
-  url: "https://docs.astro.build/assets/full-logo-light.png"
+  url: "https://isub.co.jp/wp-content/uploads/2023/03/astro-logo-dark.png"
   alt: "The full Astro logo."
 tags: ["astro", "blogging", "learning in public"]
 ---
-
-# My First Blog Post
-
-Published on: 2024-04-29
 
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
 
