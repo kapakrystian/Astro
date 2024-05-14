@@ -1,3 +1,6 @@
+(POL) Blog napisany z wykorzystaniem technologii Astro, będący materiałem szkoleniowym pochodzącym z oficjalnej dokumentacji twórców. Projekt ma za zadanie przedstawić możliwości wykorzystania technologii Astro, jej komponentów oraz nowoczesnego podejścia do tworzenia stron internetowych.
+(ENG) A blog written using Astro technology, which is training material from the creators' official documentation. The project is intended to present the possibilities of using Astro technology, its components and a modern approach to creating websites.
+
 # Astro Starter Kit: Minimal
 
 ```sh
